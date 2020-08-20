@@ -12,7 +12,8 @@ const char *k_config_value_strings[k_config_value_count]=
 	"keywords=",
 };
 
-char default_config_v1[]= "version=\n1\n\nkeywords=\nTODO:";
+//char default_config_v1[]= "version=\n1\n\nkeywords=\nTODO:";
+char default_config_v1[]= "version=\n1\n\nkeywords=\n##\n###\ntodo:";
 #define default_config default_config_v1
 const int k_current_version= 1;
 
